@@ -35,7 +35,6 @@ function commentOptions(e) {
                 .then(response => {
                     if (response[0] === "true") {
                         const user = response[1];
-                        console.log(response);
                         const commentText1 = response[2];
                         const commentid = response[3];
                         const postid = response[4];
